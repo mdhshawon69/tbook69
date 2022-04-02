@@ -9,10 +9,6 @@ const SearchFieldOneWay = () => {
   return (
     <div className="search__field_main">
       <div className="search__field-one-way">
-        <span className="arrow">
-          <HiOutlineArrowNarrowRight className="arrow-item-2" />
-          <HiOutlineArrowNarrowLeft className="arrow-item-1" />
-        </span>
         <div className="search-form from">
           <span className="lable">From</span>
           <h4 className="value">Dhaka</h4>
@@ -20,6 +16,11 @@ const SearchFieldOneWay = () => {
             Hazrat Shah Jalal International Airport
           </span>
         </div>
+
+        <span className="arrow">
+          <HiOutlineArrowNarrowRight className="arrow-item-2" />
+          <HiOutlineArrowNarrowLeft className="arrow-item-1" />
+        </span>
 
         <div className="search-form">
           <span className="lable">From</span>
